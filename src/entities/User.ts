@@ -1,5 +1,9 @@
 import { uuid } from "uuidv4";
 
+/**
+ * Declação das Entidades da aplicação
+ */
+
 export class User {
   public readonly id: string;
 

@@ -10,6 +10,10 @@ export interface IMessage {
   body: string;
 }
 
+/**
+ * Interface de um provedor de E-mail
+ */
+
 export interface IMailProvider {
   sendMail(message: IMessage): Promise<void>;
 }

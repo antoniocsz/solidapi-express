@@ -1,6 +1,9 @@
 import { User } from "../../entities/User";
 import { IUsersRepository } from "../IUsersRepository";
 
+/**
+ * Implementação da Interface, Nesse caso usando o conceito de Repository In Memoory
+ */
 export class UsersRepositoryInMemory implements IUsersRepository {
   private users: User[] = [];
 

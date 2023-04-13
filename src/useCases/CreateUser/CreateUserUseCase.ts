@@ -3,6 +3,10 @@ import { IMailProvider } from "../../providers/IMailProvider";
 import { IUsersRepository } from "../../repositories/IUsersRepository";
 import { ICreateUserRequestDTO } from "./CreateUserDTO";
 
+/**
+ * Implementação do Caso de Uso
+ */
+
 export class CreateUserUseCase {
   constructor(
     private userRepository: IUsersRepository,

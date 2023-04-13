@@ -3,6 +3,10 @@ import { UsersRepositoryInMemory } from "../../repositories/implementations/User
 import { CreateUserUseCase } from "./CreateUserUseCase";
 import { CreateUserController } from "./CreateUserController";
 
+/**
+ * Criação das Instancias do Repositorio e Provider
+ */
+
 const mailtrapMailProvider = new MailtrapMailProvider();
 const usersRepositoryInMemory = new UsersRepositoryInMemory();
 

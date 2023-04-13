@@ -2,6 +2,10 @@ import { IMailProvider, IMessage } from "../IMailProvider";
 import nodemailer from "nodemailer";
 import Mail from "nodemailer/lib/mailer";
 
+/**
+ * Implmentação da Interface para o Service de E-mail
+ */
+
 export class MailtrapMailProvider implements IMailProvider {
   private transporter: Mail;
 
